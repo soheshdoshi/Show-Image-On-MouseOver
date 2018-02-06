@@ -1,0 +1,25 @@
+<script language="Javascript">
+<!--
+function ShowPicture(id,Source) {
+if (Source=="1"){
+	document.getElementById(''+id+'').style.visibility = "visible"
+}
+else
+if (Source=="0"){
+document.getElementById(''+id+'').style.visibility = "hidden"
+}
+}
+//-->
+</script>
+<style type="text/css">
+#Style {
+	position:absolute; 
+	visibility:hidden;
+	border:solid 1px #CCC;
+	padding:5px;
+	
+}
+</style>
+
+<a href="#" onMouseOver="ShowPicture('Style',1)" onMouseOut="ShowPicture('Style',0)">Click Here To Show Image</a>
+<div id="Style"><img src="http://thuglifememe.com/wp-content/uploads/2017/08/22-you-got-this-meme-2.jpg"></div>
